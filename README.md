@@ -15,8 +15,8 @@ Shoe store
 
 This is one of the project in the android kotlin nanodegree. This is how the app would look like after build and running:
 
-<img width="300" height="500" alt="Screenshot 2022-02-08 at 7 31 06 PM" src="https://github.com/kendrickchibueze/-Modern-Node-on-AWS/blob/main/Branching%20Strategies/Screenshot%20(508).png?raw=true"><img width="300" height="500" alt="second_screenshot" src="https://github.com/kendrickchibueze/-Modern-Node-on-AWS/blob/main/Branching%20Strategies/Screenshot%20(509).png?raw=true"/>
-<img width="300" height="500" alt="third_screenshot" src="https://github.com/kendrickchibueze/-Modern-Node-on-AWS/blob/main/Branching%20Strategies/Screenshot%20(510).png?raw=true"/>
+<img width="300" height="600" alt="Screenshot 2022-02-08 at 7 31 06 PM" src="https://github.com/kendrickchibueze/-Modern-Node-on-AWS/blob/main/Branching%20Strategies/Screenshot%20(508).png?raw=true"><img width="300" height="600" alt="second_screenshot" src="https://github.com/kendrickchibueze/-Modern-Node-on-AWS/blob/main/Branching%20Strategies/Screenshot%20(509).png?raw=true"/>
+<img width="300" height="600" alt="third_screenshot" src="https://github.com/kendrickchibueze/-Modern-Node-on-AWS/blob/main/Branching%20Strategies/Screenshot%20(510).png?raw=true"/>
 Pre-requisites
 --------------
 - Android Studio 3.2.1 or higher
