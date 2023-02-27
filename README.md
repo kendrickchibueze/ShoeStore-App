@@ -1,4 +1,4 @@
-# Udacity Access Bank Scholarship Program
+# Android Kotlin Nanodegree Program
 
 
 ## ShoeStore-App
