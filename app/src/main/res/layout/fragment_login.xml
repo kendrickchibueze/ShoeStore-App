@@ -2,6 +2,9 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <!-- ConstraintLayout is used as the root view because it provides powerful constraint-based layout features
+         that can help to create complex UI layouts with a flat view hierarchy. This can help to improve performance
+         and make it easier to maintain the layout. -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_height="match_parent"
         android:layout_width="match_parent">

@@ -3,12 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+
+    <!-- Data binding variable -->
     <data>
         <variable
             name="viewModel"
             type="com.example.shoestore.viewmodel.ShoeDetailViewModel" />
     </data>
 
+
+    <!-- ConstraintLayout is used to create a responsive layout that adapts to different screen sizes -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -2,6 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+<!--    The use of LinearLayout in this code is justified because it allows the UI elements to be stacked vertically on top of each other.-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

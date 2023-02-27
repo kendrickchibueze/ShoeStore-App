@@ -11,25 +11,33 @@
         <import type="android.view.View"/>
     </data>
 
-    <RelativeLayout
+
+<!--    The ScrollView and FloatingActionButton are both placed inside the ConstraintLayout and positioned using constraints-->
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ScrollView
-            android:layout_height="match_parent"
-            android:layout_width="match_parent">
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/fab"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
 
+
+            <!-- Using LinearLayout to vertically display the TextView-->
             <LinearLayout
                 android:id="@+id/shoe_list_linear_layout"
-                android:layout_height="wrap_content"
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:padding="@dimen/shoe_padding">
 
                 <TextView
                     android:id="@+id/empty_list_text"
-                    android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="@string/empty_list"
                     android:textAlignment="center"
                     android:visibility="@{viewModel.shoesEmpty() ? View.VISIBLE : View.GONE}" />
@@ -37,15 +45,15 @@
         </ScrollView>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:background="@color/colorPrimaryDark"
-            android:backgroundTint="@color/colorPrimaryDark"
             android:id="@+id/fab"
-            android:layout_gravity="end|bottom"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/fragment_horizontal_margin"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
             android:layout_width="wrap_content"
-            android:src="@drawable/ic_add" />
-    </RelativeLayout>
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="@dimen/fragment_horizontal_margin"
+            android:src="@drawable/ic_add"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

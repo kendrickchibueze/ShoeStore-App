@@ -2,6 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <!-- Using LinearLayout to vertically stack the ImageView, TextViews and Button -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -11,6 +12,7 @@
         android:paddingLeft="@dimen/fragment_vertical_margin"
         android:paddingRight="@dimen/fragment_vertical_margin">
 
+        <!-- Adding an ImageView to show an info icon with a colored background -->
         <ImageView
             android:background="@color/colorPrimaryDark"
             android:id="@+id/instructions_image"
@@ -20,6 +22,7 @@
             android:padding="@dimen/image_padding_small"
             app:srcCompat="@android:drawable/ic_dialog_info" />
 
+        <!-- Adding a TextView to display instructions text -->
         <TextView
             android:id="@+id/instructions_text_1"
             android:layout_width="match_parent"
@@ -27,6 +30,7 @@
             android:text="@string/instructions_text_1"
             android:layout_marginTop="@dimen/fragment_vertical_margin"/>
 
+        <!-- Adding another TextView to display additional instructions text -->
         <TextView
             android:id="@+id/instructions_text_2"
             android:layout_width="match_parent"
@@ -34,6 +38,7 @@
             android:text="@string/instructions_text_2"
             android:layout_marginTop="@dimen/fragment_vertical_margin"/>
 
+        <!-- Adding a Button to navigate to the next screen -->
         <Button
             android:id="@+id/next_button"
             android:layout_width="wrap_content"

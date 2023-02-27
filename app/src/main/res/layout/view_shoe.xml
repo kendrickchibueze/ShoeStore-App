@@ -9,6 +9,7 @@
             type="com.example.shoestore.models.Shoe" />
     </data>
 
+    <!-- Use ConstraintLayout to create a flexible and responsive layout. -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -26,6 +27,7 @@
             android:text="@{shoe.name}"
             tools:text="Shoe name" />
 
+        <!-- Linear layout for shoe image and description -->
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_height="wrap_content"
@@ -42,6 +44,7 @@
                 android:layout_marginRight="20dp"
                 app:srcCompat="@drawable/shoe" />
 
+            <!-- Vertical linear layout for shoe size, company, and description -->
             <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/fragment_vertical_margin"
