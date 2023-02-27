@@ -15,7 +15,7 @@ Shoe store
 
 This is one of the project in the android kotlin nanodegree. This is how the app would look like after build and running:
 
-<img width="300" height="600" alt="Screenshot 2022-02-08 at 7 31 06 PM" src="https://github.com/kendrickchibueze/-Modern-Node-on-AWS/blob/main/Branching%20Strategies/Screenshot%20(508).png?raw=true"><img width="300" height="600" alt="second_screenshot" src="https://github.com/kendrickchibueze/-Modern-Node-on-AWS/blob/main/Branching%20Strategies/Screenshot%20(509).png?raw=true"/>
+<img width="300" height="600" alt="Screenshot 2022-02-08 at 7 31 06 PM" src="https://github.com/kendrickchibueze/-Modern-Node-on-AWS/blob/main/Branching%20Strategies/Screenshot%20(508).png?raw=true"><img width="300" height="600" alt="second_screenshot" src="https://raw.githubusercontent.com/kendrickchibueze/-Modern-Node-on-AWS/70c0bb173a0d2214ddcda6e1bac0b0a90088b0e7/Branching%20Strategies/Screenshot%20(511).png"/>
 <img width="300" height="600" alt="third_screenshot" src="https://github.com/kendrickchibueze/-Modern-Node-on-AWS/blob/main/Branching%20Strategies/Screenshot%20(510).png?raw=true"/>
 Pre-requisites
 --------------
